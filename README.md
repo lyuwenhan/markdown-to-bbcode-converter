@@ -1,2 +1,2 @@
 # Markdown to BBCode Converter
-Convert Markdown to BBCode for planetminecraft
+Convert Markdown to BBCode for Planet Minecraft.
