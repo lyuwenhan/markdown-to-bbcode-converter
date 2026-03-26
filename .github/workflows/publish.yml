@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "status.json"
-      - "package.json"
-      - ".github/workflows/publish.yml"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
