@@ -5,13 +5,13 @@ Convert Markdown to BBCode for Planet Minecraft.
 ## Installation
 
 ```bash
-npm install markdown-to-bbcode-pmc
+npm install markdown-to-bbcode-converter
 ```
 
 ## Usage
 
 ```js
-import { markdownToBBCode } from "markdown-to-bbcode-pmc";
+import { markdownToBBCode } from "markdown-to-bbcode-converter";
 
 const markdown = `
 # Title

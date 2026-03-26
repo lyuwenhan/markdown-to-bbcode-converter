@@ -1,5 +1,5 @@
 {
-	"name": "markdown-to-bbcode-pmc",
+	"name": "markdown-to-bbcode-converter",
 	"version": "1.0.0",
 	"description": "Convert Markdown to BBCode for Planet Minecraft.",
 	"type": "module",
